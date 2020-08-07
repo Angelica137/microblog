@@ -7,7 +7,6 @@ from werkzeug.urls import url_parse
 from datetime import datetime
 
 
-
 @app.before_request
 def before_request():
     if current_user.is_authenticated:
@@ -54,7 +53,6 @@ def login():
 def logout():
     logout_user()
     return redirect(url_for('index'))
-
 
 
 @app.route('/Register', methods=['GET', 'POST'])
