@@ -1,4 +1,4 @@
-{% extends "base.html" %} {& block content %}
+{% extends "base.html" %} {% block content %}
 
 <h1>Edit profile</h1>
 <form action="" method="post">
@@ -11,8 +11,8 @@
     {% endfor %}
   </p>
   <p>
-    {{ form.about_me.label }}><br />
     {{ form.about_me.label }}<br />
+    {{ form.about_me }}<br />
     {% for error in form.about_me.errors %}
     <span style="color: red;">[{{ error }}]</span>
     {% endfor %}
