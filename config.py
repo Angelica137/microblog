@@ -13,3 +13,10 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = os.environ.get('ADMINS')
+
+    
+    # pagination
+    POSTS_PER_PAGE = 3
+
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
+
