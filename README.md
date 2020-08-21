@@ -10,9 +10,6 @@ I worked on this project to continue to learn full-stack software web developmen
 
 I chose this particular project because it uses the skills I need to build my personal projects, including relational database design with one to one, one to many and many to many relationships.
 
-## Screenshots
-
-
 ## Features
 
 * User authentication
@@ -36,6 +33,7 @@ I chose this particular project because it uses the skills I need to build my pe
  `<pip3 install -r requirements.txt>`
 
 **To run the app**
+
 `<flask run>`
 
 
