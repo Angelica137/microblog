@@ -2,7 +2,7 @@
 
 This is a microblog built as full-stack web app coded on Python, Flask, SQL, and Flutter.
 
-The live version lives here - https://angelicas-flask-microblog.herokuapp.com/  ✨ 
+The live version lives here - https://angelicas-flask-microblog.herokuapp.com/ ✨
 
 ## Motivation
 
@@ -12,11 +12,11 @@ I chose this particular project because it uses the skills I need to build my pe
 
 ## Features
 
-* User authentication
-* Profile avatars
-* Follow other users
-* Email support
-
+- User authentication
+- Profile avatars
+- Follow other users
+- Email support
+- Pagination
 
 ## Set up and run App
 
@@ -28,17 +28,16 @@ I chose this particular project because it uses the skills I need to build my pe
 
 `<source env/bin/activate>`
 
-**Install the required dependencies** 
- 
- `<pip3 install -r requirements.txt>`
+**Install the required dependencies**
+
+`<pip3 install -r requirements.txt>`
 
 **To run the app**
 
 `<flask run>`
 
-
 ## Credits
 
 To build this project, I used both **"Learning Flask Framework"** by Matt Copperwaite and Charles Leifer, published by Packt on Nov 2015 and **"The Flask Mega-Tutorial"** from Miguel Grinberg https://blog.miguelgrinberg.com/
 
-Both are great resources, and it is not necessary to use both. Still, the goal of this project was to learn the technologies, I need for other projects, and I found using both resources incredibly helpful, particularly the chapters regarding databases. 
+Both are great resources, and it is not necessary to use both. Still, the goal of this project was to learn the technologies, I need for other projects, and I found using both resources incredibly helpful, particularly the chapters regarding databases.
