@@ -16,7 +16,7 @@ I chose this particular project because it uses the skills I need to build my pe
 - Profile avatars
 - Follow other users
 - Email support
-- Pagination
+- Pagination and page navigation
 
 ## Set up and run App
 
