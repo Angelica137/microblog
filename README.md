@@ -18,6 +18,7 @@ I chose this particular project because it uses the skills I need to build my pe
 - Email support
 - Pagination and page navigation
 - Asynchronous functions and multi-threading
+- Translations
 
 ## Technologies
 
@@ -25,6 +26,7 @@ I chose this particular project because it uses the skills I need to build my pe
 - Postgres
 - werkzeug and hashlib for password security
 - jwt.io for password reset tokens
+- Babel
 
 ## Set up and run App
 
