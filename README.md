@@ -1,6 +1,6 @@
 # Angelica's little blog
 
-This is a microblog built as full-stack web app coded on Python, Flask, SQL, and Flutter.
+This is a microblog built as full-stack web app coded on Python, Flask, SQL.
 
 The live version lives here - https://angelicas-flask-microblog.herokuapp.com/ ✨
 
