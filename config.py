@@ -18,7 +18,7 @@ class Config(object):
     POSTS_PER_PAGE = 3
 
     # translation
-    LANGUAGES = ['en-GB', 'es'. 'fr']
+    LANGUAGES = ['en-GB', 'es', 'fr']
 
     LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
 
