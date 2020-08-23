@@ -72,7 +72,7 @@ To build this project, I used both **"Learning Flask Framework"** by Matt Copper
 
 Both are great resources, and it is not necessary to use both. Still, the goal of this project was to learn the technologies, I need for other projects, and I found using both resources incredibly helpful, particularly the chapters regarding databases.
 
-For translations the Flask documentation was essential
+For translations I used the Flask documentation
 https://pythonhosted.org/Flask-Babel/
 
 to create transaltions you need to create a repository for each by running the command
