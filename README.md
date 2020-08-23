@@ -46,23 +46,23 @@ I chose this particular project because it uses the skills I need to build my pe
 
 `<flask run>`
 
-## To add translations,
+## To add translations
 
-create a repository for each language you would like by running the command
+**Create a repository for each language you would like by running the command**
 
 `<pybabel init -i messages.pot -d translations -l language-abreviation>`
 
-and replace "language-abbreviation" with the 2 syllable abbreviation.
+and replace "language-abbreviation" with the 2 syllable abbreviation. This will create the language file in the translations folder.
 
-This will create the language file in the translations folder.
-
-To use translated texts use the command
+**To use translated texts use the command**
 
 `<pybabel compile>`
 
 to compile the translations
 
-To test this change was successful, change the language setting on our browser or force the language selector function to always return by changing it to
+**To test this change was successful**
+
+change the language setting on our browser or force the language selector function to always return by changing it to
 
 `<@babel.localeselector/ def get_locale(): /return 'language'>`
 
@@ -74,19 +74,3 @@ Both are great resources, and it is not necessary to use both. Still, the goal o
 
 For translations I used the Flask documentation
 https://pythonhosted.org/Flask-Babel/
-
-to create transaltions you need to create a repository for each by running the command
-
-`<pybabel init -i messages.pot -d translations -l language-abreviation>`
-
-and replace "language-abreviation" with the 2 sylable abreviation.
-This will create the language file in the translaiton folder
-To use translatesd texts use comamnd
-
-pybabel compile
-
-to compile the translations
-
-To test this change was successful, change the language setting on our browser or force the langage selector function to always return by chaging it to
-
-`<@babel.localeselector def get_locale(): return 'language'>`
