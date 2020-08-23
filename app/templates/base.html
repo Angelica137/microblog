@@ -1,22 +1,10 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-  <!--<![endif]-->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    {% if title %}
-    <title>{{ title }} - Microblog</title>
-    {% endif %}
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
+{% extends 'bootstrap/base.html' %}
+{% block title %}
+    {% if title %} {{ title }} - Microblog{% else %}Welcome to Microblog {%
+    endif %} {% endblock %}
     <div>
+			{% block navbar %}
+			<nav class="navbar navbar-default">
       Microblog:
       <a href="{{ url_for('index') }}">Home</a>
       <a href="{{ url_for('explore') }}">Explore</a>
@@ -30,14 +18,21 @@
       {% endif %}
       <a href="{{ url_for('register') }}">Register</a>
     </div>
-    <hr />
-    {% with messages = get_flashed_messages() %} {% if messages %}
-    <ul>
-      {% for message in messages %}
-      <li>{{ messages }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %} {% endwith %} {% block content %}{% endblock %}
-    <script src="" async defer></script>
-  </body>
-</html>
+		<hr />
+	</nav>
+		{% endblock %} 
+		
+		{% block content %}
+    <div class="container">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-info" role="alert">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {# application content needs to be provided in the app_content block #}
+        {% block app_content %}{% endblock %}
+    </div>
+{% endblock %}
