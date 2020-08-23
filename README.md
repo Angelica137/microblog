@@ -23,7 +23,7 @@ I chose this particular project because it uses the skills I need to build my pe
 - Flask
 - Postgres
 - werkzeug and hashlib for password security
-- jwt.io
+- jwt.io for password reset tokens
 
 ## Set up and run App
 
