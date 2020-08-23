@@ -18,6 +18,13 @@ I chose this particular project because it uses the skills I need to build my pe
 - Email support
 - Pagination and page navigation
 
+## Technologies
+
+- Flask
+- Postgres
+- werkzeug and hashlib for password security
+- jwt.io
+
 ## Set up and run App
 
 **Create a virtual environment**
