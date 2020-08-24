@@ -8,7 +8,7 @@ The live version lives here - https://angelicas-flask-microblog.herokuapp.com/ â
 
 I worked on this project to continue to learn full-stack software web development with Python.
 
-I chose this particular project because it uses the skills I need to build my personal projects, including relational database design with one to one, one to many and many to many relationships.
+I chose this particular project because it uses the skills I need to build my personal projects, including relational database design with one to one, one to many and many to many relationships, and structuring a web application using blueprints.
 
 ## Features
 
