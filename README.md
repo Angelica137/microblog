@@ -46,7 +46,7 @@ I chose this particular project because it uses the skills I need to build my pe
 
 `<flask run>`
 
-## To add translations
+## To support more languages
 
 **Create a repository for each language you would like by running the command**
 
