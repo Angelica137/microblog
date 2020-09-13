@@ -18,7 +18,7 @@ I chose this particular project because it uses the skills I need to build my pe
 - Email support
 - Pagination and page navigation
 - Asynchronous functions and multi-threading
-- Translations
+- Internationalisation
 
 ## Technologies
 
